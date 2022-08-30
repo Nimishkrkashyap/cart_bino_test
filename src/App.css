@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appContainer{
+  /* height: 100vh; */
+  width: 100%;
+  /* background-color: teal; */
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  /* display: flex; */
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+}
+.image{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.card-content{
+  margin-top: 50px;
+}
+.btn{
+  padding: 6px 30px;
+  margin: 5px;
+}
