@@ -46,7 +46,7 @@ const cartReducer = (state = initialState, action) => {
           let newTotal = state.total + addedItem.price
           return{
               ...state,
-              addedItems: [...state.addedItems, addedItem],
+              addedItems: [...state.addedItems],
               total: newTotal
           }  
         case SUB_QUANTITY: 
@@ -67,7 +67,7 @@ const cartReducer = (state = initialState, action) => {
             let newTotal = state.total - addedItem.price
             return{
                 ...state,
-                // addedItems: [...state.addedItems, addedItem],
+                addedItems: [...state.addedItems],
                 total: newTotal
             }
         }
